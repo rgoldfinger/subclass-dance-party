@@ -17,12 +17,12 @@ PulsingDancer.prototype.step = function() {
 
     height:'+=150px',
     width:'+=150px'
-  });
+  }, 'fast');
 
   this.$node.animate({
 
     height:'-=150px',
     width:'-=150px'
-  });
+  }, 'fast');
 
 };

@@ -39,5 +39,11 @@ $(document).ready(function(){
     }
   });
 
+  $('.dance').click(function(event) {
+    for(var i = 0; i < window.dancers.length; i++) {
+      window.dancers[i].moveAround();
+    }
+  });
+
 });
 
