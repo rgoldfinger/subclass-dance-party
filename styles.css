@@ -36,9 +36,15 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
+
 .gummy-dancer{
   border:0px solid green;
   border-radius:5px;
   position:absolute;
   background-color: #006363;
+}
+
+.moving-dancer{
+  border-color: yellow;
+  transition: all .1s ease .01s;
 }
