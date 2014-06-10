@@ -26,6 +26,10 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 
+.frog{
+  position: absolute;
+}
+
 .pulsing-dancer{
   border:10px solid blue;
   border-radius:150px;
