@@ -9,7 +9,7 @@ body{
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
+.title, .addDancerButton, .lineup{
   padding:5px 12px;
   float:right;
 }
@@ -30,4 +30,11 @@ body, a:link, a:visited, a:active{
   border:10px solid blue;
   border-radius:150px;
   position:absolute;
+}
+
+.gummy-dancer{
+  border:0px solid green;
+  border-radius:5px;
+  position:absolute;
+  background-color: #006363;
 }
